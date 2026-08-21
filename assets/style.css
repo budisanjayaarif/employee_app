@@ -1,0 +1,146 @@
+/* ================= GLOBAL ================= */
+
+body { 
+    margin: 0; 
+    padding: 0; 
+    font-family: Arial, sans-serif; 
+
+    background: url('../upload/background/EmployeAPP.png') no-repeat center center fixed; 
+    background-size: cover; 
+}
+
+/* overlay */
+.overlay { 
+    background: rgba(0,0,0,0.5); 
+    min-height: 100vh; 
+
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+/* ================= LOGIN ================= */
+
+.login-box { 
+    width: 320px; 
+    padding: 25px; 
+
+    background: rgba(255,255,255,0.9); 
+    border-radius: 12px; 
+
+    box-shadow: 0 0 15px rgba(0,0,0,0.3); 
+}
+
+.login-box input { 
+    width: 100%; 
+    padding: 10px; 
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.login-box button { 
+    width: 100%; 
+    padding: 10px; 
+    margin-top: 10px; 
+    background: #007bff; 
+    color: white; 
+    border: none; 
+    border-radius: 6px; 
+    font-weight: bold;
+}
+
+/* ================= CONTENT ================= */
+
+.content-box { 
+    width: 90%; 
+    max-width: 1100px; 
+    padding: 25px; 
+
+    background: rgba(255,255,255,0.95); 
+    border-radius: 12px; 
+
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+
+    backdrop-filter: blur(6px); /* 🔥 efek kaca */
+}
+
+/* ================= FORM ================= */
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+/* table form biar rapi */
+table td {
+    vertical-align: top;
+}
+
+/* ================= BUTTON ================= */
+
+.btn { 
+    padding: 10px 15px; 
+    background: #007bff; 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 6px; 
+    font-weight: bold; 
+    border: none;
+    cursor: pointer;
+} 
+
+.btn:hover { 
+    background: #0056b3; 
+} 
+
+/* ================= TABLE ================= */
+
+.table-modern { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 15px;
+} 
+
+.table-modern th { 
+    background: #007bff; 
+    color: white; 
+    padding: 10px; 
+    text-align: left;
+} 
+
+.table-modern td { 
+    padding: 10px; 
+    border-bottom: 1px solid #ddd; 
+} 
+
+.table-modern tr:hover { 
+    background: #f5f5f5; 
+} 
+
+/* ================= LINK ================= */
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ================= FOOTER ================= */
+
+.footer-text { 
+    position: absolute; 
+    bottom: 20px; 
+    width: 100%; 
+    text-align: center; 
+    color: white; 
+    font-weight: bold; 
+}
